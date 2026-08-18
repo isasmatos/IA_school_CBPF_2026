@@ -1,0 +1,104 @@
+---
+
+lens_sample:
+  '1':
+    alpha: 0.94
+    beta: 2.0
+    bin_spacing: 0.2
+    bin_start: 0.2
+    bin_stop: 1.2
+    galaxy_bias_prefactor: 1.05
+    limiting_magnitude: 24.1
+    n_gal: 18.0
+    n_tomo_bins: 5
+    sigma_z: 0.03
+    z_0: 0.26
+    z_bias: 0.0
+  '10':
+    alpha: 0.9
+    beta: 2.0
+    bin_spacing: 0.1
+    bin_start: 0.2
+    bin_stop: 1.2
+    galaxy_bias_prefactor: 0.95
+    limiting_magnitude: 25.3
+    n_gal: 48.0
+    n_tomo_bins: 10
+    sigma_z: 0.03
+    z_0: 0.28
+    z_bias: 0.0
+  '4':
+    alpha: 0.92
+    beta: 2.0
+    bin_spacing: 0.2
+    bin_start: 0.2
+    bin_stop: 1.2
+    galaxy_bias_prefactor: 1.05
+    limiting_magnitude: 24.5
+    n_gal: 28.0
+    n_tomo_bins: 5
+    sigma_z: 0.03
+    z_0: 0.268
+    z_bias: 0.0
+  '7':
+    alpha: 0.91
+    beta: 2.0
+    bin_spacing: 0.1
+    bin_start: 0.2
+    bin_stop: 1.2
+    galaxy_bias_prefactor: 0.95
+    limiting_magnitude: 24.9
+    n_gal: 38.0
+    n_tomo_bins: 10
+    sigma_z: 0.03
+    z_0: 0.272
+    z_bias: 0.0
+
+source_sample:
+  '1':
+    alpha: 0.78
+    beta: 2.0
+    limiting_magnitude: 24.1
+    mean_eff_z: 0.85
+    n_gal: 10.0
+    n_tomo_bins: 5
+    sigma_z: 0.05
+    z_0: 0.13
+    z_bias: 0.0
+  '10':
+    alpha: 0.68
+    beta: 2.0
+    limiting_magnitude: 25.3
+    mean_eff_z: 1.05
+    n_gal: 27.0
+    n_tomo_bins: 5
+    sigma_z: 0.05
+    z_0: 0.11
+    z_bias: 0.0
+  '4':
+    alpha: 0.75
+    beta: 2.0
+    limiting_magnitude: 24.5
+    mean_eff_z: 0.85
+    n_gal: 15.7
+    n_tomo_bins: 5
+    sigma_z: 0.05
+    z_0: 0.12
+    z_bias: 0.0
+  '7':
+    alpha: 0.71
+    beta: 2.0
+    limiting_magnitude: 24.9
+    mean_eff_z: 1.05
+    n_gal: 21.3
+    n_tomo_bins: 5
+    sigma_z: 0.05
+    z_0: 0.12
+    z_bias: 0.0
+
+  sky:
+    frac_sky: 0.4363
+    full_sky: 41252.9612
+    lsst_sky: 18000
+
+...
