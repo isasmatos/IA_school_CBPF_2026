@@ -1,0 +1,8 @@
+name: iaschool
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - namaster=2.4
+prefix: /opt/anaconda3/envs/iaschool
