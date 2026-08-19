@@ -43,3 +43,7 @@ Thumbs.db
 
 # Ignore gabaritos
 *gabarito*
+notebooks/Aula-3a_angular_power_spectrum_correction.ipynb
+
+# Ignore data files
+data/
